@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Agent" max_length="40" name="x_bp3g_ncl_agent" type="collection">
+        <element label="Agency" max_length="32" name="agency" reference="x_bp3g_ncl_agency" type="reference"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
+        <index name="index">
+            <element name="agency"/>
+        </index>
+    </element>
+</database>
