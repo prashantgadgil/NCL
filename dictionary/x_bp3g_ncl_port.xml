@@ -3,9 +3,13 @@
     <element label="Port" max_length="40" name="x_bp3g_ncl_port" type="collection">
         <element display="true" label="City" max_length="40" name="city" type="string"/>
         <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="Destination" max_length="32" name="destination" reference="x_bp3g_ncl_destination" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="destination"/>
         </index>
     </element>
 </database>

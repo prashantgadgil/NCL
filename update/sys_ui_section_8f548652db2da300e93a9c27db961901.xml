@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>fd64da1edb2da300e93a9c27db961921</sys_id>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>a57a9252db6da300e93a9c27db961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>ship</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>7164da1edb2da300e93a9c27db961922</sys_id>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>297a9252db6da300e93a9c27db961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,71 +33,85 @@
             <element>category</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>f164da1edb2da300e93a9c27db961922</sys_id>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>a97a9252db6da300e93a9c27db961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>occupancy_type</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>7564da1edb2da300e93a9c27db961922</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>count</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>f564da1edb2da300e93a9c27db961922</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>guest_capacity</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>7964da1edb2da300e93a9c27db961922</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-05 18:45:03</sys_created_on>
-            <sys_id>f964da1edb2da300e93a9c27db961922</sys_id>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>2d7a9252db6da300e93a9c27db961972</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-05 18:45:03</sys_updated_on>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>occupancy_type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>ad7a9252db6da300e93a9c27db961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>count</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>217a9252db6da300e93a9c27db961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>guest_capacity</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>a17a9252db6da300e93a9c27db961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cabin_number</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-05 19:11:32</sys_created_on>
+            <sys_id>257a9252db6da300e93a9c27db961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_cabin" sys_domain="global" view="Default view">8f548652db2da300e93a9c27db961901</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-05 19:11:32</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

@@ -15,7 +15,7 @@
         <mobile_title>Brands</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_bp3g_ncl_brand</name>
-        <order/>
+        <order>10</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0a41a19adba9a300e93a9c27db96195b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Brands</sys_name>
         <sys_overrides/>
         <sys_package display_value="Norwegian" source="x_bp3g_ncl">533e4a19db692300e93a9c27db9619ef</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Norwegian">533e4a19db692300e93a9c27db9619ef</sys_scope>
         <sys_update_name>sys_app_module_0a41a19adba9a300e93a9c27db96195b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-05 15:01:42</sys_updated_on>
+        <sys_updated_on>2018-11-05 19:21:59</sys_updated_on>
         <timeline_page/>
         <title>Brands</title>
         <uncancelable>false</uncancelable>
