@@ -2,13 +2,19 @@
 <database>
     <element label="Sailing" max_length="40" name="x_bp3g_ncl_sailing" type="collection">
         <element label="Charter" max_length="40" name="charter" type="boolean"/>
+        <element label="Current Guest Count" max_length="40" name="current_guest_count" type="integer"/>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Itinerary" max_length="32" name="itinerary" reference="x_bp3g_ncl_itinerary" type="reference"/>
+        <element label="Max Guest Count" max_length="40" name="max_guest_count" type="integer"/>
         <element label="Name" max_length="60" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Ship" max_length="32" name="ship" reference="x_bp3g_ncl_ship" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <index name="index">
             <element name="ship"/>
+        </index>
+        <index name="index2">
+            <element name="itinerary"/>
         </index>
     </element>
 </database>

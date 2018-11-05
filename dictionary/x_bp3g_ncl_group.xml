@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Group" max_length="40" name="x_bp3g_ncl_group" type="collection">
+        <element label="Group Name" max_length="40" name="group_name" type="string"/>
+        <element choice="1" label="Group Type" max_length="40" name="group_type" type="choice">
+            <choice>
+                <element label="CMI OP LG EVENT" sequence="0" value="cmi op lg event"/>
+                <element label="INCREG AND INCLARGE" sequence="1" value="increg and inclarge"/>
+                <element label="CMI OP EVENT" sequence="2" value="cmi op event"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

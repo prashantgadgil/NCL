@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Port Visit" max_length="40" name="x_bp3g_ncl_port_visit" type="collection">
+        <element label="Disembark Day Number" max_length="40" name="disembark_day_number" type="integer"/>
+        <element label="Embark Day Number" max_length="40" name="embark_day_number" type="integer"/>
+        <element label="Itinerary" max_length="32" name="itinerary" reference="x_bp3g_ncl_itinerary" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Port" max_length="32" name="port" reference="x_bp3g_ncl_port" type="reference"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <index name="index">
+            <element name="port"/>
+        </index>
+        <index name="index2">
+            <element name="itinerary"/>
+        </index>
+    </element>
+</database>

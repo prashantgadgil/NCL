@@ -4,6 +4,7 @@
         <element label="Brand" max_length="32" name="brand" reference="x_bp3g_ncl_brand" type="reference"/>
         <element label="Identifier" max_length="40" name="identifier" type="string"/>
         <element label="LifeBoatCapacity" max_length="40" name="lifeboatcapacity" type="integer"/>
+        <element label="MaxGuestCapacity" max_length="40" name="maxguestcapacity" type="integer"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
