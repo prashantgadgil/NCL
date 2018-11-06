@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Itinerary" max_length="40" name="x_bp3g_ncl_itinerary" type="collection">
+        <element label="Destination" max_length="32" name="destination" reference="x_bp3g_ncl_destination" type="reference"/>
         <element label="From Port" max_length="32" name="from_port" reference="x_bp3g_ncl_port" type="reference"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="TotalDays" max_length="40" name="totaldays" type="integer"/>
         <element label="To Port" max_length="32" name="to_port" reference="x_bp3g_ncl_port" type="reference"/>
         <index name="index">
-            <element name="to_port"/>
+            <element name="destination"/>
         </index>
         <index name="index2">
+            <element name="to_port"/>
+        </index>
+        <index name="index3">
             <element name="from_port"/>
         </index>
     </element>
