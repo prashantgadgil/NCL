@@ -25,9 +25,37 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_bp3g_ncl_reservation" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">4c3c69d2dbe9a300e93a9c27db961975</sys_ui_form>
-            <sys_ui_section caption="Dates and Pricing" display_value="Dates and Pricing" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">003c69d2dbe9a300e93a9c27db961975</sys_ui_section>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">003c69d2dbe9a300e93a9c27db961975</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-11-05 15:49:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 12:31:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc988ae2db65e300e93a9c27db96194f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_ncl_reservation" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">4c3c69d2dbe9a300e93a9c27db961975</sys_ui_form>
+            <sys_ui_section caption="Pricing" display_value="Pricing" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">d0988ae2db65e300e93a9c27db96194d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 12:31:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-06 12:18:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c85ca62db65e300e93a9c27db961900</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_bp3g_ncl_reservation" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">4c3c69d2dbe9a300e93a9c27db961975</sys_ui_form>
+            <sys_ui_section caption="Physical Cabin" display_value="Physical Cabin" name="x_bp3g_ncl_reservation" sys_domain="global" view="Default view">00858a62db65e300e93a9c27db9619fe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-06 12:31:50</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_bp3g_ncl_reservation</name>

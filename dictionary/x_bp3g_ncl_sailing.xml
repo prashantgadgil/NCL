@@ -8,6 +8,7 @@
         <element label="Max Guest Count" max_length="40" name="max_guest_count" type="integer"/>
         <element label="Name" max_length="60" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sailing Capacity" max_length="40" name="sailing_capacity" type="integer"/>
         <element label="Ship" max_length="32" name="ship" reference="x_bp3g_ncl_ship" type="reference"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <index name="index">

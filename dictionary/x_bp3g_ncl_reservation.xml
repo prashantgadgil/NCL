@@ -22,7 +22,9 @@
         <element label="Paid in Full Date" max_length="40" name="paid_in_full_date" type="glide_date"/>
         <element label="Product" max_length="32" name="product" reference="x_bp3g_ncl_product" type="reference"/>
         <element label="Sailing" max_length="32" name="sailing" reference="x_bp3g_ncl_sailing" type="reference"/>
+        <element label="Ship Cabin" max_length="32" name="ship_cabin" reference="x_bp3g_ncl_ship_cabin" type="reference"/>
         <element label="Taxes" max_length="20" name="taxes" type="currency"/>
+        <element label="Voyage Price" max_length="20" name="voyage_price" type="currency"/>
         <index name="index">
             <element name="agent"/>
         </index>
@@ -36,6 +38,9 @@
             <element name="office"/>
         </index>
         <index name="index5">
+            <element name="ship_cabin"/>
+        </index>
+        <index name="index6">
             <element name="sailing"/>
         </index>
     </element>

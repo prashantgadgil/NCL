@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Group" max_length="40" name="x_bp3g_ncl_group" type="collection">
-        <element label="Group Name" max_length="40" name="group_name" type="string"/>
+        <element display="true" label="Group Name" max_length="40" name="group_name" type="string"/>
         <element choice="1" label="Group Type" max_length="40" name="group_type" type="choice">
             <choice>
                 <element label="CMI OP LG EVENT" sequence="0" value="cmi op lg event"/>
