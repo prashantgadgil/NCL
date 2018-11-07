@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reservation Component" max_length="40" name="x_bp3g_ncl_reservation_component" type="collection">
+        <element label="Booking Date" max_length="40" name="booking_date" type="glide_date"/>
+        <element label="Deposit Amount" max_length="20" name="deposit_amount" type="currency"/>
+        <element label="Deposit Date" max_length="40" name="deposit_date" type="glide_date"/>
+        <element label="Fees" max_length="20" name="fees" type="currency"/>
+        <element label="Guest" max_length="32" name="guest" reference="x_bp3g_ncl_guest" type="reference"/>
+        <element label="List Price" max_length="20" name="list_price" type="currency"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Paid in Full Date" max_length="40" name="paid_in_full_date" type="glide_date"/>
+        <element label="Reservation" max_length="32" name="reservation" reference="x_bp3g_ncl_reservation" type="reference"/>
+        <element label="Taxes" max_length="20" name="taxes" type="currency"/>
+        <element label="Total Paid Price" max_length="20" name="total_paid_price" type="currency"/>
+        <element label="Voyage Price" max_length="20" name="voyage_price" type="currency"/>
+        <index name="index">
+            <element name="reservation"/>
+        </index>
+        <index name="index2">
+            <element name="guest"/>
+        </index>
+    </element>
+</database>

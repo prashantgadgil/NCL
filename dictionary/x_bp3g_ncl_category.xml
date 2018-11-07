@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Category" max_length="40" name="x_bp3g_ncl_category" type="collection">
+        <element label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="Studio" sequence="0" value="studio"/>
+                <element label="Inside" sequence="1" value="inside"/>
+                <element label="Outside" sequence="2" value="outside"/>
+                <element label="Balcony" sequence="3" value="balcony"/>
+                <element label="Mini-Suite" sequence="4" value="mini-suite"/>
+                <element label="Haven Suite" sequence="5" value="haven suite"/>
+            </choice>
+        </element>
+        <element display="true" label="Meta Category" max_length="40" name="meta_category" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

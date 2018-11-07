@@ -5,97 +5,83 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>00b98626db65e300e93a9c27db9619be</sys_id>
+            <sys_created_on>2018-11-07 15:02:31</sys_created_on>
+            <sys_id>25a4333edb612700e93a9c27db96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>order_type</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>80b98626db65e300e93a9c27db9619be</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
+            <sys_updated_on>2018-11-07 15:02:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sailing</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>04b98626db65e300e93a9c27db9619be</sys_id>
+            <sys_created_on>2018-11-07 15:02:31</sys_created_on>
+            <sys_id>a5a4333edb612700e93a9c27db96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
+            <sys_updated_on>2018-11-07 15:02:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cabin</element>
-            <position>3</position>
+            <element>category</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>84b98626db65e300e93a9c27db9619be</sys_id>
+            <sys_created_on>2018-11-07 15:02:31</sys_created_on>
+            <sys_id>29a4333edb612700e93a9c27db96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
+            <sys_updated_on>2018-11-07 15:02:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>08b98626db65e300e93a9c27db9619be</sys_id>
+            <sys_created_on>2018-11-07 15:02:31</sys_created_on>
+            <sys_id>a9a4333edb612700e93a9c27db96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
+            <sys_updated_on>2018-11-07 15:02:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>effective_start_date</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>88b98626db65e300e93a9c27db9619be</sys_id>
+            <sys_created_on>2018-11-07 15:02:31</sys_created_on>
+            <sys_id>2da4333edb612700e93a9c27db96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
+            <sys_updated_on>2018-11-07 15:02:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>effective_end_date</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-06 12:36:43</sys_created_on>
-            <sys_id>0cb98626db65e300e93a9c27db9619be</sys_id>
+            <sys_created_on>2018-11-07 15:02:31</sys_created_on>
+            <sys_id>ada4333edb612700e93a9c27db96191c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_ncl_stop_sell_order" sys_domain="global" view="Default view">ae994226db65e300e93a9c27db961999</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-06 12:36:43</sys_updated_on>
+            <sys_updated_on>2018-11-07 15:02:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

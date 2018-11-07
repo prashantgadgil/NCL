@@ -53,9 +53,9 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-06 12:17:38</sys_created_on>
+        <sys_created_on>2018-11-07 14:42:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5f35026edb25e300e93a9c27db961923</sys_id>
+        <sys_id>80cfeff6db612700e93a9c27db96199b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Ship Cabin</sys_name>
         <sys_package display_value="Norwegian" source="x_bp3g_ncl">533e4a19db692300e93a9c27db9619ef</sys_package>
@@ -64,7 +64,7 @@
         <sys_scope display_value="Norwegian">533e4a19db692300e93a9c27db9619ef</sys_scope>
         <sys_update_name>sys_dictionary_x_bp3g_ncl_reservation_ship_cabin</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-06 12:17:38</sys_updated_on>
+        <sys_updated_on>2018-11-07 14:42:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

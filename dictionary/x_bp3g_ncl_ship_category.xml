@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ship Category" max_length="40" name="x_bp3g_ncl_ship_category" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_bp3g_ncl_category" type="reference"/>
+        <element label="Count" max_length="40" name="count" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Ship" max_length="32" name="ship" reference="x_bp3g_ncl_ship" type="reference"/>
+        <index name="index">
+            <element name="ship"/>
+        </index>
+        <index name="index2">
+            <element name="category"/>
+        </index>
+    </element>
+</database>

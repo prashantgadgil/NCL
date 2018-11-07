@@ -5,8 +5,12 @@
         <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Office" max_length="32" name="office" reference="x_bp3g_ncl_office" type="reference"/>
         <index name="index">
             <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="office"/>
         </index>
     </element>
 </database>

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Stop Sell Order" max_length="40" name="x_bp3g_ncl_stop_sell_order" type="collection">
-        <element label="Cabin" max_length="32" name="cabin" reference="x_bp3g_ncl_cabin" type="reference"/>
+        <element label="Category" max_length="32" name="category" reference="x_bp3g_ncl_category" type="reference"/>
         <element label="Effective End Date" max_length="40" name="effective_end_date" type="glide_date"/>
         <element label="Effective Start Date" max_length="40" name="effective_start_date" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Order Type" max_length="40" name="order_type" type="choice">
-            <choice>
-                <element label="Sell" sequence="0" value="Sell"/>
-                <element label="Stop" sequence="1" value="stop"/>
-            </choice>
-        </element>
         <element label="Sailing" max_length="32" name="sailing" reference="x_bp3g_ncl_sailing" type="reference"/>
         <index name="index">
-            <element name="cabin"/>
+            <element name="category"/>
         </index>
         <index name="index2">
             <element name="sailing"/>
