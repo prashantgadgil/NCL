@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sailing Pricing" max_length="40" name="x_bp3g_ncl_sailing_pricing" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_bp3g_ncl_category" type="reference"/>
+        <element label="Currency" max_length="40" name="currency" type="string"/>
+        <element label="Guest Count From" max_length="40" name="guest_count_from" type="integer"/>
+        <element label="Guest Count To" max_length="40" name="guest_count_to" type="integer"/>
+        <element label="List Price" max_length="20" name="list_price" type="currency"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Occupancy Type" max_length="40" name="occupancy_type" type="choice">
+            <choice>
+                <element label="Single" sequence="0" value="single"/>
+                <element label="Multiple" sequence="1" value="multiple"/>
+            </choice>
+        </element>
+        <element label="Office" max_length="32" name="office" reference="x_bp3g_ncl_office" type="reference"/>
+        <element label="Sailing" max_length="32" name="sailing" reference="x_bp3g_ncl_sailing" type="reference"/>
+        <index name="index">
+            <element name="office"/>
+        </index>
+        <index name="index2">
+            <element name="category"/>
+        </index>
+        <index name="index3">
+            <element name="sailing"/>
+        </index>
+    </element>
+</database>

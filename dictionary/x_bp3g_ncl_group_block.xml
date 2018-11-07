@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Group Block" max_length="40" name="x_bp3g_ncl_group_block" type="collection">
+        <element label="Category" max_length="32" name="category" reference="x_bp3g_ncl_category" type="reference"/>
         <element label="Group" max_length="32" name="group" reference="x_bp3g_ncl_group" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Number Of Cabins" max_length="40" name="number_of_cabins" type="integer"/>
         <element label="Sailing" max_length="32" name="sailing" reference="x_bp3g_ncl_sailing" type="reference"/>
         <index name="index">
-            <element name="sailing"/>
+            <element name="category"/>
         </index>
         <index name="index2">
+            <element name="sailing"/>
+        </index>
+        <index name="index3">
             <element name="group"/>
         </index>
     </element>

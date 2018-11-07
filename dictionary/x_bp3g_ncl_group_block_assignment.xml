@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Group Block Assignment" max_length="40" name="x_bp3g_ncl_group_block_assignment" type="collection">
+        <element label="Group Block" max_length="32" name="group_block" reference="x_bp3g_ncl_group_block" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sequence Number" max_length="40" name="sequence_number" type="integer"/>
+        <element label="Ship Cabin" max_length="32" name="ship_cabin" reference="x_bp3g_ncl_ship_cabin" type="reference"/>
+        <index name="index">
+            <element name="group_block"/>
+        </index>
+        <index name="index2">
+            <element name="ship_cabin"/>
+        </index>
+    </element>
+</database>

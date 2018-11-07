@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Reservation" max_length="40" name="x_bp3g_ncl_reservation" type="collection">
+        <element label="Agency" max_length="32" name="agency" reference="x_bp3g_ncl_agency" type="reference"/>
+        <element label="Group" max_length="32" name="group" reference="x_bp3g_ncl_group" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="1" label="Occupancy Type" max_length="40" name="occupancy_type" type="choice">
             <choice>
@@ -8,13 +10,31 @@
                 <element label="Multiple" sequence="1" value="multiple"/>
             </choice>
         </element>
+        <element label="Office" max_length="32" name="office" reference="x_bp3g_ncl_office" type="reference"/>
+        <element label="Product" max_length="32" name="product" reference="x_bp3g_ncl_product" type="reference"/>
+        <element label="Sailing" max_length="32" name="sailing" reference="x_bp3g_ncl_sailing" type="reference"/>
         <element label="Ship Cabin" max_length="32" name="ship_cabin" reference="x_bp3g_ncl_ship_cabin" type="reference"/>
         <element label="Vacation" max_length="32" name="vacation" reference="x_bp3g_ncl_vacation" type="reference"/>
         <index name="index">
-            <element name="vacation"/>
+            <element name="product"/>
         </index>
         <index name="index2">
+            <element name="agency"/>
+        </index>
+        <index name="index3">
+            <element name="vacation"/>
+        </index>
+        <index name="index4">
+            <element name="office"/>
+        </index>
+        <index name="index5">
             <element name="ship_cabin"/>
+        </index>
+        <index name="index6">
+            <element name="sailing"/>
+        </index>
+        <index name="index7">
+            <element name="group"/>
         </index>
     </element>
 </database>

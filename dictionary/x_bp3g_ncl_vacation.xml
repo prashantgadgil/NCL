@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Vacation" max_length="40" name="x_bp3g_ncl_vacation" type="collection">
-        <element label="Agent" max_length="32" name="agent" reference="x_bp3g_ncl_agent" type="reference"/>
+        <element label="Group" max_length="32" name="group" reference="x_bp3g_ncl_group" type="reference"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Office" max_length="32" name="office" reference="x_bp3g_ncl_office" type="reference"/>
-        <element label="Product" max_length="32" name="product" reference="x_bp3g_ncl_product" type="reference"/>
+        <element label="Primary Agency" max_length="32" name="primary_agency" reference="x_bp3g_ncl_agency" type="reference"/>
         <element label="Sailing" max_length="32" name="sailing" reference="x_bp3g_ncl_sailing" type="reference"/>
         <index name="index">
-            <element name="agent"/>
+            <element name="primary_agency"/>
         </index>
         <index name="index2">
-            <element name="product"/>
-        </index>
-        <index name="index3">
             <element name="office"/>
         </index>
-        <index name="index4">
+        <index name="index3">
             <element name="sailing"/>
+        </index>
+        <index name="index4">
+            <element name="group"/>
         </index>
     </element>
 </database>

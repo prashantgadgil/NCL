@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sailing Pricing Fee" max_length="40" name="x_bp3g_ncl_sailing_pricing_fee" type="collection">
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sailing Pricing" max_length="32" name="sailing_pricing" reference="x_bp3g_ncl_sailing_pricing" type="reference"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Govt Tax" sequence="0" value="govt tax"/>
+                <element label="NCF Fee" sequence="1" value="ncf fee"/>
+                <element label="Other Fee" sequence="2" value="other fee"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sailing_pricing"/>
+        </index>
+    </element>
+</database>
